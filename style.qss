@@ -1,0 +1,75 @@
+QWidget {
+    
+    background-color:#F7F9FC;
+    color: #37352F;
+    font-family: "Pretendard SemiBold";
+    font-size: 10pt;
+}
+
+QLabel#title {
+    padding:8px;
+    font-size: 18pt;
+    font-family: "Pretendard SemiBold";
+    
+}
+
+QPushButton#backbtn {
+   
+}
+
+QPushButton#addRoot {
+    margin:0px 14px 0px 0px; 
+}
+
+QLabel#toglename {
+    background: transparent;
+    
+}
+
+QPushButton{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #5B8DEF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: "Pretendard SemiBold";
+}
+QPushButton:hover {
+    background-color: #4F7FDB;
+    font-family: "Pretendard SemiBold";
+}
+QPushButton:pressed {
+    background-color: #436FC2;
+    font-family: "Pretendard SemiBold";
+}
+QGroupBox {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+}
+QGroupBox#tablebox{
+    background:#F0F8FF;
+    border:1px solid #D6EAF8;
+    padding:5px;
+}
+QTableWidget {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    gridline-color: #EEEEEE;
+    border-radius: 8px;
+    
+    
+}
+QHeaderView::section {
+    background-color: #F1F1EF;
+    color: #6B6B6B;
+    border: none;
+    border-bottom: 1px solid #E5E5E5;
+}
+QCheckBox {
+    spacing: 6px;
+}
+QTableWidget QWidget {
+    background: transparent;
+}
